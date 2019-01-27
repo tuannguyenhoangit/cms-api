@@ -1,0 +1,38 @@
+{
+  "name": "events",
+  "plural": "Event",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "startAt": {
+      "type": "date",
+      "required": true
+    },
+    "endAt": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "authors": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
