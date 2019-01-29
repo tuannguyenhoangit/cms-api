@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "localhost",
+    "host": "103.1.237.204",
     "port": 27017,
-    "url": "mongodb://localhost:27017/cms",
+    "url": "mongodb://103.1.237.204:27017/cms",
     "database": "cms",
-    "password": "admin@password",
+    "password": "",
     "name": "mongodb",
-    "user": "admin",
+    "user": "",
     "connector": "mongodb"
   }
 }
