@@ -8,9 +8,9 @@
     "port": 27017,
     "url": "mongodb://localhost:27017/cms",
     "database": "cms",
-    "password": "",
+    "password": "admin@password",
     "name": "mongodb",
-    "user": "",
+    "user": "admin",
     "connector": "mongodb"
   }
 }
